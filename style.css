@@ -1,6 +1,15 @@
 body{
-    font-family: 'Zen Loop', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 60px;
+    font-size: 50px;
+}
+.jhankar-name{
+    color: orange;
+}
+h3{
+    font-size: 50px;
+}
+.tom{
+
 }
