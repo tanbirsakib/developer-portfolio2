@@ -1,37 +1,72 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
-    margin : 0;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 h1{
     font-size: 50px;
 }
-.jhankar-name{
+h1 span{
     color: orange;
 }
-h3{
-    font-size: 50px;
+.half-width img{
+    width: 100%;
 }
-section{
-    display: flex;
-}
-.section-div{
-    width: 50%;
-    padding-left:60px;
-}
-.section-div img{
-    padding-top: 30px;
-    width: 80%;
-}
-.hire-me{
+.anchor-button{
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
-    background-image: linear-gradient(rgb(8, 78, 8), rgb(87, 199, 87));
     border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
+p{
+    color: dimgray;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
-    
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
